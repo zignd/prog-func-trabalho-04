@@ -87,7 +87,6 @@ main = do
   putStrLn $ "Func. 8: max; entrada 33 22; resultado: " ++ show (max 33 22)
   putStrLn $ "Func. 8: min; entrada 11 22; resultado: " ++ show (min 11 22)
   putStrLn $ "Func. 8: min; entrada 33 22; resultado: " ++ show (min 33 22)
-
   putStrLn $ "Func. 8: curry; entrada multiplicar 2 3; resultado: " ++ show (curry multiplicar 2 3)
   putStrLn $ "Func. 8: curry; entrada multiplicar 2 3; resultado: " ++ show (curry concatenar "Igor" " Hipolito")
   putStrLn $ "Func. 8: uncurry; entrada dividir (30, 6); resultado: " ++ show (uncurry dividir (30, 6))
